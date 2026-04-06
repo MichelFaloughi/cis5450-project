@@ -9,8 +9,16 @@ Binary classification: predict whether a team **wins (1) or loses (0)** a given 
 ## Data
 
 - **Source:** [nba_api](https://github.com/swar/nba_api) — free, public access to the official NBA statistics database. No API key required.
-- **Coverage:** 20 NBA seasons, 2005-06 through 2024-25 (~52,000+ team-game rows)
+- **Coverage:** 20 NBA seasons, 2005-06 through 2024-25
 - **Raw data** is committed to this repo under `data/raw/`. All data is publicly available and legal to redistribute.
+
+### Datasets
+
+| Dataset | Location | Granularity | Description |
+|---|---|---|---|
+| Game logs | `data/raw/game_logs/` | One row per team per game | Per-game box scores: points, rebounds, assists, turnovers, shooting splits, plus/minus, and the win/loss outcome (`WL`) — the target variable |
+| Team stats | `data/raw/team_stats/` | One row per team per season | Season-level advanced metrics: offensive rating, defensive rating, net rating, pace, and true shooting % |
+| Game index | `data/raw/league_game_finder.csv` | One row per team per game | Flat index of all game results: game ID, date, matchup, and outcome — used for joining and cross-referencing |
 
 ## Setup
 
