@@ -53,9 +53,9 @@ cis5450-project/
 | `leaguedashteamstats` | `LeagueDashTeamStats` | Season-level & advanced team metrics | `data/raw/team_stats_YYYY-YY.csv` |
 
 #### Seasons Covered
-Seasons 2005-06 through 2024-25 (20 seasons), yielding ~52,000+ team-game rows before enrichment.
+Seasons 2000-01 through 2024-25 (25 seasons), yielding ~65,000+ team-game rows before enrichment.
 
-Season ID format used by NBA API: `"2005-06"`, `"2006-07"`, ..., `"2024-25"`
+Season ID format used by NBA API: `"2000-01"`, `"2001-02"`, ..., `"2024-25"`
 
 ### Supplementary (Optional / Future)
 - Historical Vegas closing spreads & over/under lines from covers.com or similar public archives

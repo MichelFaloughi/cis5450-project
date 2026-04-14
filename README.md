@@ -9,7 +9,7 @@ Binary classification: predict whether a team **wins (1) or loses (0)** a given 
 ## Data
 
 - **Source:** [nba_api](https://github.com/swar/nba_api) — free, public access to the official NBA statistics database. No API key required.
-- **Coverage:** 20 NBA seasons, 2005-06 through 2024-25
+- **Coverage:** 25 NBA seasons, 2000-01 through 2024-25
 - **Raw data** is committed to this repo under `data/raw/`. All data is publicly available and legal to redistribute.
 
 ### Datasets
