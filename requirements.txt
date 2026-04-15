@@ -20,3 +20,4 @@ scipy>=1.10.0
 # Modeling (for later notebooks)
 scikit-learn>=1.3.0
 xgboost>=2.0.0
+duckdb>=0.9.0

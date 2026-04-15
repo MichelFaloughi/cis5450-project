@@ -38,3 +38,8 @@ desktop.ini
 # All NBA data from nba_api is public, free, and legal to redistribute.
 # Committing raw data lets collaborators work without re-running slow API downloads.
 # If the repo approaches GitHub's size limits, revisit this decision and use Git LFS.
+
+# pdfs
+Project Proposal.pdf
+SP2026 Project Details.pdf
+SP2026 Rubric.pdf
