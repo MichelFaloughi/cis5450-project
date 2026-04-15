@@ -43,3 +43,6 @@ desktop.ini
 Project Proposal.pdf
 SP2026 Project Details.pdf
 SP2026 Rubric.pdf
+
+# large files ?
+*.csv
